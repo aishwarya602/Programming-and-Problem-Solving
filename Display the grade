@@ -1,0 +1,19 @@
+n1 = float(input("subject 1: "))
+n2 = float(input("subject 2: "))
+n3 = float(input("subject 3: "))
+n4 = float(input("subject 4: "))
+n5 = float(input("subject 5: "))
+
+a = (n1+n2+n3+n4+n5)/5.0
+print("Average Marks: {:.2f}".format(a))
+
+if a >= 90.0 and a <= 100.0:
+	print("Grade: A")
+elif a>= 80.0 and a <= 89.0:
+	print("Grade: B")
+elif a >= 70.0 and a <= 79.0:
+	print("Grade: C")
+elif a >= 60.0 and a <= 69.0:
+	print("Grade: D")
+else:
+	print("Grade: F")
